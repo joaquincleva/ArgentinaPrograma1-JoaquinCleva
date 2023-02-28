@@ -1,0 +1,68 @@
+/*-----Características Generales-----*/
+*{
+    font-family: 'Golos Text', sans-serif;
+}
+span {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightgrey;
+    align-items: center;
+}
+
+
+/*-----Carousel-----*/
+.w-100 {
+    width: 80% !important;
+    height: 15%;
+    align-items: center;
+}
+
+.carousel-control-next,
+.carousel-control-prev , .carousel-indicators {
+    filter: invert(100%);
+}
+
+div.c-wrapper{
+    width: 75%;
+    margin: auto;
+}
+
+img {
+    width: 75%;
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 80%;
+margin: auto;
+}
+
+
+/*-----Personal Card-----*/
+.card{
+    background-color: #757575;
+}
+
+.card-body{
+    background-color: #bdbdbd;
+
+}
+
+.btn-link:hover, .btn-link, .btn-link:focus{
+    text-decoration:none;
+}
+
+.navbar-dark .navbar-brand {
+    color: orange
+}
+
+.personal-info{
+    margin: auto;
+    margin-top: 25px;
+}
+

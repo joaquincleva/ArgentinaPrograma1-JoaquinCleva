@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Mi CV</title>
+    <!--Importando bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="estilos/styles.css">
+    <!--Importando fuente de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar sticky-top navbar-dark bg-dark">
+    <div>
+      <a class="navbar-brand" id="experience-btn" href="#">Experiencia</a>
+      <a class="navbar-brand" id="personal-btn" href="#">Sobre Mí</a>
+    </div>
+  </nav>
+  <!--Carrusel de Bootstrap-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://img.freepik.com/premium-photo/web-banner-smiling-professional-black-business-man-using-laptop-computer-working-from-home-office-happy-afro-american-freelancer-man-working-home_121946-4917.jpg?w=2000" title="Feliz programando" alt="Foto Feliz programando">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://assets.website-files.com/61e7438b67e97b3a01e88848/622fad70fbfeef5b211298ae_iSoftpull%20Grow%20Business-min.jpg"  title="En reunión con gerentes" alt="Foto en una reunión con gerentes">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://opn-website-cms-assets.production-internal.opn.dev/public/career_header_320c741f73.jpg"  title="Trabajando con compañeros" alt="Foto en la oficina con compañeros">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--Acordeón de Bootstrap-->
+  <div id="experience">
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span>Mi trabajo como diseñador web</span>
+            </button>
+          </h5>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ad at fugiat, enim laboriosam quo natus. Cupiditate praesentium quas aliquam aperiam? Porro beatae animi corrupti, facilis mollitia iure voluptas voluptatem!
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <span>Mi trabajo como desarrollador front-end</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, cumque aliquam fuga dolorum aperiam recusandae! Nesciunt repellat facilis neque labore excepturi. Ullam, laboriosam iure maiores soluta labore vitae. Sit, repellat.
+            Ullam blanditiis exercitationem veritatis animi error dolorum consequatur aliquid provident ab eos. Vero modi autem suscipit possimus recusandae! Veniam totam iste quisquam sunt iusto eaque quos ab quod sint soluta!
+            Doloremque est dolor earum, incidunt pariatur vitae quibusdam tempore illo ea eum deleniti eius atque, consectetur amet animi, dolore facere debitis. Nihil eius inventore quod libero porro iusto cumque. Labore!
+            Voluptatibus incidunt quibusdam quidem, aliquam esse, id necessitatibus ad excepturi nostrum fugit doloremque, rem odit minima. Ipsam magni quos eveniet deleniti, vero aspernatur quae expedita, sapiente ea libero veritatis adipisci!
+            Nulla odit, numquam reiciendis quibusdam explicabo repellendus in, accusamus atque excepturi eum facere iste, voluptatem veritatis esse voluptates ipsa? Fuga cupiditate mollitia quisquam quaerat quibusdam delectus impedit commodi est facere.
+            Ea cum nostrum hic. Hic nam minus cupiditate praesentium rerum deserunt quas autem consequuntur totam soluta enim quos, dolorum aut. Quo eaque facilis illo? Est nostrum aliquid praesentium accusantium magni?
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span>Mi trabajo como desarrollador back-end</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem alias eum officia beatae illo corrupti veritatis? Laudantium quaerat minima vel ex. Cupiditate libero, dignissimos ullam explicabo deleniti quo voluptas dolores?
+            Libero, debitis. Ipsa suscipit ut repudiandae dolorum ex nesciunt odit tempore nobis! Alias ea placeat, consequuntur exercitationem iure dignissimos ipsa, beatae, mollitia vero blanditiis aliquid. Incidunt, corrupti! Iure, animi quos.
+            Ipsam, accusamus eos nisi officiis illum esse modi pariatur quod voluptatum quo aliquid debitis hic reiciendis corrupti dolorum, totam tenetur voluptatem voluptates, nostrum delectus possimus! Quia molestias excepturi veniam asperiores!
+            Velit expedita ipsam amet quia, iure iusto provident ad, facilis ipsa necessitatibus odio excepturi! Dolore tempora facere reiciendis laudantium, unde libero perspiciatis quaerat dicta repellat temporibus autem reprehenderit culpa quo!
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <span>Formación y Experiencia Laboral</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Ingeniería en Sistemas - UFN (2000-2015)</li>
+              <li>Programador Front-End en Globant (2015-2017) </li>
+              <li>Programador Back-End en Meta (2017-2022)</li>
+              <li>Desarrollo de aplicaciones móviles en Google (2022-)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Tarjeta bootstrap-->
+  <div id="personal" class="personal">
+    <div class="card personal-info" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title" id="name"></h5>
+        <p class="card-text">
+          <p>Age: <label id="age"></label></p>
+          <p>Mail: <label id="mail"></label></p>
+          <p>Cell: <label id="cell"></label></p>
+          <p>City: <label id="city"></label></p>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--Importando script de Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="functions/scripts.js"></script>
+</body>
+</html>
